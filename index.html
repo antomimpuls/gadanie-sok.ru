@@ -8,7 +8,7 @@
 <meta content="Онлайн‑поддержка отношений: диагностика Таро, приворот, защита" name="description"/>
 <meta content="Гадание Таро и магическая помощь | Онлайн" property="og:title"/>
 <meta content="Онлайн‑поддержка отношений: диагностика Таро, приворот, защита" property="og:description"/>
-<meta content="https://raw.githubusercontent.com/antomimpuls/gadanie-sok.ru/main/photo.jpg" property="og:image"/>
+<meta content="https://gadanie-sok.ru/photo-32624fe51dd349aba77919694207a2d5.jpg" property="og:image"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;family=Lora:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <script>
 const SITE_SETTINGS = {
@@ -24,7 +24,7 @@ const SITE_SETTINGS = {
   'telegramEnabled': 1,
   'telegramNickname': 'taro_tatiana_9999',
   'yandexMetrikaId': '112303976',
-  'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/gadanie-sok.ru/main/photo.jpg',
+  'psychicImageURL': 'https://gadanie-sok.ru/photo-32624fe51dd349aba77919694207a2d5.jpg',
   'workingHours': 'ежедневно 08:00-22:00',
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false
@@ -684,6 +684,11 @@ h1{background:linear-gradient(135deg,#fff,#2dd4bf 50%,#0f766e);-webkit-backgroun
 @media(max-width:768px){.hero-img>[class^="magic-"]{inset:-64px!important}}
 /* HERO_MAGIC_REFRESH_END */
 </style>
+
+<style id="studio-photo-fit">
+.studio-photo-backdrop{position:absolute;inset:7px;border-radius:50%;overflow:hidden;z-index:1;background:center/cover no-repeat url("https://gadanie-sok.ru/photo-32624fe51dd349aba77919694207a2d5.jpg");filter:blur(8px);opacity:.85;pointer-events:none}
+.hero-img #psychicImage{box-sizing:border-box!important;object-fit:contain!important;object-position:center!important;padding:12%!important;background:transparent!important}
+</style>
 </head>
 <body>
 <div class="sticky-messengers" id="stickyMessengers">
@@ -706,7 +711,7 @@ h1{background:linear-gradient(135deg,#fff,#2dd4bf 50%,#0f766e);-webkit-backgroun
 </div>
 <div>
 <div class="hero-img">
-<img alt="Гадалка" id="psychicImage" src="https://raw.githubusercontent.com/antomimpuls/gadanie-sok.ru/main/photo.jpg"/>
+<span class="studio-photo-backdrop" aria-hidden="true"></span><img alt="Гадалка" id="psychicImage" src="https://gadanie-sok.ru/photo-32624fe51dd349aba77919694207a2d5.jpg"/>
 <div class="magic-halo"></div>
 </div>
 <div class="psychic-name" id="heroName">
